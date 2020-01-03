@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
-    <button @click="helpMe">{{ btnMsg }}</button>
-  </div>
+  <btn-Msg>
+    <div>
+      <h1>{{ msg }}</h1>
+      <button @click='helpMe'>{{ btnMsg }}</button>
+    </div>
+  </btn-Msg>
 </template>
 
 <script>

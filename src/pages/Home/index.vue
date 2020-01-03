@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import helpBtn from '@/components/HelpBtn'
+import helpBtn from './components/btnMsg'
 
 export default {
   name: 'home',

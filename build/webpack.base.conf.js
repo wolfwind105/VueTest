@@ -35,7 +35,7 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src'),
+      '@': resolve('src')
     }
   },
   module: {
@@ -78,7 +78,7 @@ module.exports = {
     ]
   },
   node: {
-    // prevent webpack from injecting useless setImmediate polyfill because Vue
+    // prevent webpack from injecting useless setImmediate polyfills because Vue
     // source contains it (although only uses it if it's native).
     setImmediate: false,
     // prevent webpack from injecting mocks to Node native modules
