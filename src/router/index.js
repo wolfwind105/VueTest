@@ -47,6 +47,76 @@ export default new Router({
           name: '關於我'
         }]
       }
+    },
+    {
+      path: '/test',
+      name: 'bind',
+      component: () => import('../components/bindtest.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'bindtest'
+        }]
+      }
+    },
+    {
+      path: '/ittest',
+      name: 'if',
+      component: () => import('../components/IfTest.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'iftest'
+        }]
+      }
+    },
+    {
+      path: '/VonWatch',
+      name: 'VonWatch',
+      component: () => import('../components/VonWatch.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'VonWatch'
+        }]
+      }
+    },
+    {
+      path: '/Von',
+      name: 'Von',
+      component: () => import('../components/Von.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'Von'
+        }]
+      }
+    },
+    {
+      path: '/Watch',
+      name: 'Watch',
+      component: () => import('../components/Watch.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'Watch'
+        }]
+      }
     }
   ]
 })

@@ -5,6 +5,11 @@
         <router-link to="/">Homes</router-link>|
         <router-link to="/about">About</router-link>
         <router-link to="/news">Practice</router-link>
+        <router-link to="/test">bindtest</router-link>
+        <router-link to="/ittest">ittest</router-link>
+        <router-link to="/VonWatch">VonWatch</router-link>
+        <router-link to="/Von">Von</router-link>
+        <router-link to="/Watch">Watch</router-link>
       </div>
     </div>
   </header>

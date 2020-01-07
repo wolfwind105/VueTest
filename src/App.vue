@@ -8,6 +8,7 @@
 <script>
 import Headers from './components/Header'
 import BreadCrumb from './components/BreadCrumb'
+
 export default {
   components: {
     Headers,
