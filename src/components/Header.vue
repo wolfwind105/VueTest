@@ -10,6 +10,9 @@
         <router-link to="/VonWatch">VonWatch</router-link>
         <router-link to="/Von">Von</router-link>
         <router-link to="/Watch">Watch</router-link>
+        <router-link to="/Filter">Filter</router-link>
+        <router-link to="/father">father</router-link>
+        <router-link to="/DataDriven">DataDriven</router-link>
       </div>
     </div>
   </header>

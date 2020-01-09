@@ -117,6 +117,48 @@ export default new Router({
           name: 'Watch'
         }]
       }
+    },
+    {
+      path: '/Filter',
+      name: 'Filter',
+      component: () => import('../components/Filter.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'Filter'
+        }]
+      }
+    },
+    {
+      path: '/father',
+      name: 'father',
+      component: () => import('../pages/Home/emit/father.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'father'
+        }]
+      }
+    },
+    {
+      path: '/DataDriven',
+      name: 'DataDriven',
+      component: () => import('../components/DataDriven.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'DataDriven'
+        }]
+      }
     }
   ]
 })
