@@ -26,7 +26,6 @@ export default {
   border: 1px solid #cccccc;
   border-radius: 6px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
-
 }
 .card_title {
   padding: 16px;

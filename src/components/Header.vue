@@ -4,8 +4,8 @@
       <div id="nav">
         <router-link to="/">Homes</router-link>|
         <router-link to="/about">About</router-link>
-        <router-link to="/news">Practice</router-link>
-        <router-link to="/test">bindtest</router-link>
+        <router-link to="/news">news</router-link>
+        <router-link to="/test">test</router-link>
         <router-link to="/ittest">ittest</router-link>
         <router-link to="/VonWatch">VonWatch</router-link>
         <router-link to="/Von">Von</router-link>
@@ -13,6 +13,7 @@
         <router-link to="/Filter">Filter</router-link>
         <router-link to="/father">father</router-link>
         <router-link to="/DataDriven">DataDriven</router-link>
+        <router-link to="/Practice">Practice</router-link>
       </div>
     </div>
   </header>

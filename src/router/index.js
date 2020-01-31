@@ -159,6 +159,20 @@ export default new Router({
           name: 'DataDriven'
         }]
       }
+    },
+    {
+      path: '/Practice',
+      name: 'Practice',
+      component: () => import('../components/Practice.vue'),
+      meta: {
+        breadcrumb: [{
+          name: '首頁',
+          link: 'home'
+        },
+        {
+          name: 'Practice'
+        }]
+      }
     }
   ]
 })
